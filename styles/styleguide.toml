@@ -10,14 +10,14 @@ format = "wemake"
 show-source = true
 
 # Plugins:
-max-line-length = 120
+max-line-length = 88
 max-complexity = 6
 
 # Violations:
 ignore = "D100,D104,D401,W504,RST303,RST304,DAR103,DAR203"
 
 ["setup.cfg".isort]
-line_length = 80
+line_length = 88
 
 
 [nitpick.files."setup.cfg"]
